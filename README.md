@@ -26,6 +26,7 @@ Use Mongoose to connect your Express server to the MongoDB Atlas cluster.
      - Accepts `name`, `description`, and `price` (or any subset) in the request body.
      - Responds with the updated object (or an error message if something goes wrong).
 
+
    - **DELETE /menu/:id**: Deletes an existing menu item.  
      - Responds with a success message if the item is deleted (or an error if the `id` is invalid or not found).
 
